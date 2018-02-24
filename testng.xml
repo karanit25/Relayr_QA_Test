@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Suite" verbose="1">
+  <test name="Regression"   >
+
+   <classes>
+       <class name="googleSearch.SearchGoogleByValue" />
+       <class name="googleSearch.SearchGoogleBySuggestion" />
+    </classes>
+   
+ </test>
+</suite>
